@@ -89,6 +89,57 @@
         align-items: center;
     }
 
+    /* we are gamer section start  */
+
+    .we-are-gamer-section{
+        background: none;
+        
+        }
+    .we-are-gamer{
+        flex-direction: column;
+        text-align: center
+    }
+
+    .img-container{
+        width: 80%;
+    }
+
+    .img-container img{
+        width: 100%;
+    }
+
+    .content-container{
+        padding: 25px;
+        font-size: .75rem;
+    }
+    
+    
+    .title{
+        font-size: 3em;
+        margin-bottom: 10px;
+       
+        
+    }
+    .description{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    .purpus{
+        font-size: 1.5em;
+   
+    
+    }
+    .quote{
+        font-size: 1.5em;
+   
+    
+    }
+    
+    .we-are-gamer .btn{
+        margin: 15px 0px 50px;
+    }
+
+
 
     
 }

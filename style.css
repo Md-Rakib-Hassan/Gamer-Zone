@@ -177,31 +177,32 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
     text-align: right;
     color: #534C64;
 }
+.content-container{
+    padding-left: 20px;
+    font-size: 1rem;
+}
 
 
 .title{
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: 700;
     
 }
 .description{
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 1.5rem;
 }
 .purpus{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 500;
 
 }
 .quote{
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: 700;
 
 }
 
 .we-are-gamer .btn{
     margin: 30px 0px 24px;
-}
-.content-container{
-    padding-left: 20px;
 }
