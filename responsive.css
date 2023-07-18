@@ -1,3 +1,122 @@
+@media screen and (max-width:769px) {
+
+    .nav-icon{
+        width: 45%;
+    }
+    .nav-menu{
+        width: 55%;
+    }
+    nav{
+        padding: 25px 10px;
+    }
+    
+
+     /* nav end */
+
+    /* banner start */
+
+    .banner-section{
+        background-image: none;
+    }
+    .banner-content{
+
+       
+        /* border: 2px solid blue; */
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 5px;
+        background-image: url("images/Group\ 14.png");
+        background-repeat: 100%;
+        background-size:contain;
+
+      
+    }
+
+    .btn{
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 1rem;
+
+    }
+    .banner-title{
+        font-size: 1.5rem;
+    }
+    .goat{
+        font-size: 3rem;
+    }
+    .banner-description{
+
+        font-size: .75rem;
+        padding: 5px 0px;
+        gap:10px;
+        align-items: center;
+    }
+
+
+    /* we are gamer section start  */
+
+    .we-are-gamer-section{
+        background: none;
+        
+        }
+    .we-are-gamer{
+        flex-direction: column;
+        text-align: center
+    }
+
+    .img-container{
+        width: 100%;
+    }
+
+    .img-container img{
+        width: 100%;
+    }
+
+    .content-container{
+        padding: 25px;
+        font-size: 1rem;
+    }
+    
+    
+    .title{
+        font-size: 3em;
+        margin-bottom: 10px;
+       
+        
+    }
+    .description{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    .purpus{
+        font-size: 1.5em;
+   
+    
+    }
+    .quote{
+        font-size: 2em;
+   
+    
+    }
+    
+    .we-are-gamer .btn{
+        margin: 15px 0px 50px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:426px) {
 
     .full-nav{
@@ -145,114 +264,3 @@
 }
 
 
-@media screen and (max-width:769px) {
-
-    .nav-icon{
-        width: 45%;
-    }
-    .nav-menu{
-        width: 55%;
-    }
-    nav{
-        padding: 25px 10px;
-    }
-    
-
-     /* nav end */
-
-    /* banner start */
-
-    .banner-section{
-        background-image: none;
-    }
-    .banner-content{
-
-       
-        /* border: 2px solid blue; */
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-        padding: 50px 5px;
-        background-image: url("images/Group\ 14.png");
-        background-repeat: 100%;
-        background-size:contain;
-
-      
-    }
-
-    .btn{
-        padding: 10px 20px;
-        border-radius: 30px;
-        font-weight: 600;
-        font-size: 1rem;
-
-    }
-    .banner-title{
-        font-size: 1.5rem;
-    }
-    .goat{
-        font-size: 3rem;
-    }
-    .banner-description{
-
-        font-size: .75rem;
-        padding: 5px 0px;
-        gap:10px;
-        align-items: center;
-    }
-
-
-    /* we are gamer section start  */
-
-    .we-are-gamer-section{
-        background: none;
-        
-        }
-    .we-are-gamer{
-        flex-direction: column;
-        text-align: center
-    }
-
-    .img-container{
-        width: 100%;
-    }
-
-    .img-container img{
-        width: 100%;
-    }
-
-    .content-container{
-        padding: 25px;
-        font-size: 1rem;
-    }
-    
-    
-    .title{
-        font-size: 3em;
-        margin-bottom: 10px;
-       
-        
-    }
-    .description{
-        font-size: 1em;
-        line-height: 1.5em;
-    }
-    .purpus{
-        font-size: 1.5em;
-   
-    
-    }
-    .quote{
-        font-size: 2em;
-   
-    
-    }
-    
-    .we-are-gamer .btn{
-        margin: 15px 0px 50px;
-    }
-
-
-
-
-}
