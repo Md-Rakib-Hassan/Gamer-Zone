@@ -5,6 +5,10 @@
 
         
     }
+    .nav-menu{
+        width: 100%;
+    }
+
     .nav-icon{
         width: 100%;
         margin: 40px auto;
@@ -13,10 +17,28 @@
     }
     .nav-menu ul{
         flex-direction: column;
+        width: 100%;
         gap: 36px;
     }
+    
+    .nav-menu li:last-child{
+        padding: 17px 15px;
+
+    }
+    
+}
+
+
+@media screen and (max-width:769px) {
+
+    .nav-icon{
+        width: 45%;
+    }
     .nav-menu{
-        width: 100%;
+        width: 55%;
+    }
+    nav{
+        padding: 25px 10px;
     }
     
 }
