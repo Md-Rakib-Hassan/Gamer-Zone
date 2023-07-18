@@ -120,9 +120,14 @@ nav{
 .goat{
     font-size: 6rem;
     font-weight: 800;
+    
+}
+.liner{
     background: linear-gradient(180deg, #F948B2, #8758F1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+
 }
 .fa-play{
     border: 2px solid #FF42A5;
@@ -151,4 +156,44 @@ nav{
 
 .hi{
     display: none;
+}
+
+/* end of banner  */
+
+/* start we are gamer section */
+
+.we-are-gamer{
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    text-align: right;
+    color: #534C64;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+.description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.purpus{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.quote{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.we-are-gamer .btn{
+    margin: 30px 0px 24px;
+}
+.content-container{
+    padding-left: 20px;
 }
