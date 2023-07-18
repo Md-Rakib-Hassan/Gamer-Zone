@@ -1,0 +1,22 @@
+@media screen and (max-width:426px) {
+
+    .full-nav{
+        flex-direction: column;
+
+        
+    }
+    .nav-icon{
+        width: 100%;
+        margin: 40px auto;
+        justify-content: center
+        
+    }
+    .nav-menu ul{
+        flex-direction: column;
+        gap: 36px;
+    }
+    .nav-menu{
+        width: 100%;
+    }
+    
+}
