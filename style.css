@@ -75,7 +75,8 @@ nav{
 .banner-section{
     background-image: url("images/Group\ 14.png");
     background-repeat: no-repeat;
-    background-size:50%;
+    /* background-position:top left; */
+    background-size: 50% 100%;
 }
 
 .banner{
@@ -162,6 +163,11 @@ nav{
 
 /* start we are gamer section */
 
+.we-are-gamer-section{
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+
 .we-are-gamer{
     display: flex;
     max-width: 1400px;
@@ -171,6 +177,8 @@ nav{
     text-align: right;
     color: #534C64;
 }
+
+
 .title{
     font-size: 3rem;
     font-weight: 700;
