@@ -65,3 +65,84 @@ nav{
 .fa-facebook{
     color: #0D89F0;
 }
+
+/* nav end */
+
+/* banner start  */
+
+.banner-section{
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size:50%;
+}
+
+.banner{
+    display: flex;
+    margin: auto;
+    /* border: 2px solid red; */
+    max-width: 1400px;
+}
+.banner-content{
+    height: 100;
+    width: 50%;
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: start;
+    align-items: center;
+  
+}
+
+.banner-img{
+    width: 50%;
+    /* border: 2px solid yellowgreen; */
+}
+.banner-img img{
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.banner-description{
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #534C64;
+    padding: 15px 0px;
+    gap:10px;
+}
+.fa-solid{
+    color: black;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.goat{
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-play{
+    border: 2px solid #FF42A5;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.btn{
+    padding: 21px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color:#fff;
+    border:none;
+    background-color: #4EC5F7;
+}
+.pink-btn{
+    background-color: #FF42A5;
+}
+.banner-content .btn{
+    margin-top: 30px;
+}
+.banner .btn{
+    margin-right: 10px;
+}
