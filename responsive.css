@@ -25,6 +25,71 @@
         padding: 17px 15px;
 
     }
+
+    /* nav end */
+
+    /* banner start */
+
+    .banner-section{
+        background-image: none;
+        width:100%;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+    .banner-img{
+        width: 80%;
+        margin: 0 auto;
+        /* border: 2px solid yellowgreen; */
+    }
+
+    .banner-img img{
+        width: 100%
+        /* border: 2px solid black; */
+    }
+
+    .banner-content{
+
+        width: 80%;
+       
+        /* border: 2px solid blue; */
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 5px;
+        background-image: url("images/Group\ 14.png");
+        background-repeat: 100%;
+        background-size:contain;
+
+      
+    }
+
+    .btn{
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-size: 1rem;
+
+    }
+    .banner-title{
+        font-size: 1.5rem;
+    }
+    .goat{
+        font-size: 3rem;
+    }
+    .banner-description{
+
+        font-size: .75rem;
+        padding: 5px 0px;
+        gap:10px;
+        align-items: center;
+    }
+
+
     
 }
 

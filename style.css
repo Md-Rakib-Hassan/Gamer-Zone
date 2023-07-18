@@ -68,6 +68,8 @@ nav{
 
 /* nav end */
 
+
+
 /* banner start  */
 
 .banner-section{
@@ -145,4 +147,8 @@ nav{
 }
 .banner .btn{
     margin-right: 10px;
+}
+
+.hi{
+    display: none;
 }
