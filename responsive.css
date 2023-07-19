@@ -259,6 +259,26 @@
     }
 
 
+    /* funny video section start  */
+
+    .funny-video-section{
+        font-size: .75rem;
+    }
+
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+
+    }
+    .funny-video-section .title{
+        font-size: 2em;
+    }
+    .funny-video-content .description , .funny-video-content .title{
+
+        line-height: 2em;
+    }
+
+
 
     
 }
