@@ -206,3 +206,39 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
 .we-are-gamer .btn{
     margin: 30px 0px 24px;
 }
+
+
+/* funny video section start */
+
+.funny-video-section{
+
+    max-width: 1400px;
+    /* display: flex;
+    justify-content: center; */
+    margin: auto;
+    
+
+}
+.funny-video-content{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.funny-video-content .description , .funny-video-content .title{
+
+    line-height: 4rem;
+}
+.description{
+    color: #534C64;
+}
+
+.card-container{
+
+    margin-top: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: 500;
+    color: #534C64;
+}
