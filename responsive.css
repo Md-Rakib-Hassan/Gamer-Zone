@@ -1,4 +1,7 @@
-@media screen and (max-width:769px) {
+
+
+
+@media screen and (max-width:769px){
 
     .nav-icon{
         width: 45%;
@@ -104,6 +107,35 @@
     .we-are-gamer .btn{
         margin: 15px 0px 50px;
     }
+
+    /* funny video section start  */
+
+    .funny-video-section{
+        font-size: .75rem;
+        max-width: 80%;
+    }
+
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        /* margin: 0px 20px; */
+        justify-content: center;
+        /* border: 2px solid red; */
+        width: 100%;
+
+    }
+     .card{
+        width: 80%;
+        margin: auto;
+        /* border: 2px solid red; */
+    }
+
+    .card img{
+        width: 100%;
+        margin: auto;
+    }
+
+
 
 
 
@@ -263,11 +295,25 @@
 
     .funny-video-section{
         font-size: .75rem;
+        max-width: 80%;
     }
 
     .card-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
+        /* margin: 0px 20px; */
+        justify-content: center;
+        /* border: 2px solid red; */
+        width: 100%;
+
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+    }
+
+    .card-container img{
+        width: 100%;
 
     }
     .funny-video-section .title{
