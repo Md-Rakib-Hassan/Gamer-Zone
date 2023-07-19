@@ -243,6 +243,15 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
     color: #534C64;
 }
 
+.card img:hover{
+    border: 5px solid #FE41A4;
+    border-radius: 25px;
+    filter: brightness(.5);
+    cursor: pointer;
+
+
+}
+
 
 
 /* play instantly start  */
@@ -254,29 +263,35 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
 
 .play-instantly{
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     /* margin: auto; */
+    align-items: center;
 }
 
+
+
 .abs1{
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
-  height: 50%;
+    position: relative;
+    top:-30%;
+    left:-25%;
 }
 
 .play-instantly-content{
     width: 50%;
-    border: 2px solid black;
-    margin: auto;
+    /* border: 2px solid black; */
+    padding-right: 300px;
+    text-align: right;
+
 }
+/* .play-instantly-content .description{
+    width: 70%;
+} */
 
 .play-instantly-img{
     width: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 40px;
+
 }
 
 .play-instantly-img img{
@@ -285,20 +300,21 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
 
 
 
-.play-instantly-img .abs1{
-    width: 50%;  
-}
+
+
+
 
 
 /* carrer section start  */
 
 .carrer-section{
+    margin-top: 20px;
     background-color: #FF42A5;
     max-width: 1400px;
     margin: auto;
     color: #fff;
     line-height: 1.5em;
-    margin-top: 100px;
+
    
 
 } 
@@ -440,6 +456,9 @@ li{
 
 .wt{
     color: #fff;
+}
+li , button:hover{
+    cursor: pointer;
 }
 
 

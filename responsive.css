@@ -244,6 +244,9 @@ width: 100%;
     color: #fff;
 }
 
+.play-instsntly-section{
+    display: none;
+}
 
 
 }
@@ -515,7 +518,7 @@ width: 100%;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-around;
     gap:20px;
-    
+
 
 
 }
@@ -543,6 +546,10 @@ width: 100%;
 
 .wt{
     color: #fff;
+}
+
+.play-instsntly-section{
+    display: none;
 }
     
 
