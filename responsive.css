@@ -73,11 +73,12 @@
         }
     .we-are-gamer{
         flex-direction: column;
-        text-align: center
+        text-align: center;
     }
 
     .img-container{
         width: 100%;
+        /* border: 100px solid red; */
     }
 
     .img-container img{
@@ -357,6 +358,9 @@ width: 100%;
     .nav-menu li:last-child{
         padding: 17px 15px;
 
+    }
+    .nav-icon .icon-text{
+        font-size: 2.8rem;
     }
 
     /* nav end */
