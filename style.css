@@ -19,6 +19,7 @@ nav{
 }
 .nav-icon{
     display: flex;
+    align-items: center;
     width: 60%;
     gap: 20px;
 }
@@ -26,8 +27,9 @@ nav{
     color: #FF42A5;
 }
 .icon-text{
-    font-size: 2.80rem;
+    font-size: 2.8vw;
     font-weight: 700;
+    word-wrap: normal;
 }
 .nav-menu{
     width: 40%;
