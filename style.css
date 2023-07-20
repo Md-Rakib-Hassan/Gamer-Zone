@@ -73,7 +73,7 @@ nav{
 /* banner start  */
 
 .banner-section{
-    background-image: url("images/Group\ 14.png");
+    background-image: url("images/Group-14.png");
     background-repeat: no-repeat;
     /* background-position:top left; */
     background-size: 50% 100%;
@@ -130,6 +130,12 @@ nav{
 
 
 }
+.pnk{
+    color: #E34BBE;
+}
+.rpnk{
+    color: #BB50D3;
+}
 .fa-play{
     border: 2px solid #FF42A5;
     border-radius: 50%;
@@ -164,11 +170,13 @@ nav{
 /* start we are gamer section */
 
 .we-are-gamer-section{
-background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
 
 .we-are-gamer{
+    
     display: flex;
     max-width: 1400px;
     justify-content: space-between;
@@ -202,6 +210,14 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
     font-weight: 700;
 
 }
+/* .img-container{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.img-container img{
+    width: 100%;
+} */
 
 .we-are-gamer .btn{
     margin: 30px 0px 24px;
@@ -243,8 +259,13 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
     color: #534C64;
 }
 
+.card img{
+    border: 5px solid transparent;
+    border-radius: 25px;
+}
+
 .card img:hover{
-    border: 5px solid #FE41A4;
+    border: 5px solid #f53899;
     border-radius: 25px;
     filter: brightness(.5);
     cursor: pointer;
@@ -257,7 +278,7 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
 /* play instantly start  */
 
 .play-instsntly-section{
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-bottom: 50px;;
 }
@@ -268,6 +289,7 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
     justify-content: space-between;
     margin: auto;
     align-items: center;
+    gap:70px;
 }
 
 
@@ -277,7 +299,7 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
 .play-instantly-content{
     width: 50%;
     /* border: 2px solid black; */
-    padding-right: 300px;
+    padding-right: 200px;
     text-align: right;
 
 }
@@ -290,7 +312,7 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
     position: relative;
     width: 50%;
     /* border: 2px solid red; */
-    padding: 40px;
+    padding: 40px 0px;
 
 }
 
@@ -308,6 +330,28 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
     
 }
 
+.play-instantly-sec{
+    flex-direction: row-reverse;
+}
+
+.play-instantly-sec>.play-instantly-content{
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 200px;
+}
+
+.play-instantly-sec .abs1{
+    width: 30%;
+    position: absolute;
+    top: 67%;
+    left: 80%;
+    
+}
+
+
+
+
+
 
 
 
@@ -321,23 +365,25 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
 .carrer-section{
     margin-top: 20px;
     background-color: #FF42A5;
-    max-width: 1400px;
-    margin: auto;
     color: #fff;
     line-height: 1.5em;
-
-   
-
 } 
+
+.carrer-section-inner{
+    max-width: 1400px;
+    margin: auto;
+
+}
 .carrer-content{
     display: flex;
+    justify-content: space-between;
     margin: auto;
     align-items: center;
 }
 .carrer-content-container{
     width: 50%;
     /* border: 2px solid black; */
-    padding-left: 10%;
+    /* padding-left: 10%; */
 }
 .carrer-img-container{
     width: 50%;
