@@ -529,4 +529,12 @@ li , button:hover{
     cursor: pointer;
 }
 
+.footer-icon-text{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.footer-icon{
+    gap: 15px;
+}
+
 
